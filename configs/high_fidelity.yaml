@@ -1,0 +1,10 @@
+# high-fidelity studio profile
+codec:
+  n_quantizers: 8
+  codebook_size: 1024
+  mel_bins: 80
+acoustic:
+  n_mels: 80
+  sample_rate: 48000
+vocoder:
+  sample_rate: 48000

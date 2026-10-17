@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+
+# Data / caches / checkpoints
+/data/
+*.db
+*.sqlite3
+*.ckpt
+.dramaforge_ckpt*
+.dramaforge_cache/
+.push_cache.json
+*.bin
+*.safetensors
+*.gguf
+*.wav
+*.mp3
+*.flac
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp

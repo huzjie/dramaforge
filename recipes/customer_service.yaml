@@ -1,0 +1,5 @@
+# 客服语音配方（亲切、稳定）
+directive:
+  default_emotion: gentle
+  default_voice: alice
+  default_rate: 0.95

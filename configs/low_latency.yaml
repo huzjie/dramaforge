@@ -1,0 +1,12 @@
+# low-latency profile
+prosody:
+  frame_rate: 25
+codec:
+  n_quantizers: 2
+  codebook_size: 128
+  mel_bins: 16
+acoustic:
+  n_mels: 16
+  hop_length: 128
+vocoder:
+  hop_length: 128

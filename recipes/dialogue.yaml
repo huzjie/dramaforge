@@ -1,0 +1,6 @@
+# 多角色对话配方
+speaker:
+  n_speakers: 16
+  embed_dim: 64
+directive:
+  crossfade_ms: 20.0

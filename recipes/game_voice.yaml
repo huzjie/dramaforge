@@ -1,0 +1,7 @@
+# 游戏配音配方（多角色、戏剧化）
+speaker:
+  n_speakers: 24
+  embed_dim: 64
+directive:
+  default_emotion: excited
+  crossfade_ms: 20.0

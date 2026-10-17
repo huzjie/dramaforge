@@ -1,0 +1,19 @@
+# smallest smoke-test config (instant to run)
+speaker:
+  n_speakers: 4
+  embed_dim: 16
+
+codec:
+  n_quantizers: 2
+  codebook_size: 64
+  mel_bins: 16
+
+emotion:
+  embed_dim: 8
+  n_emotions: 4
+
+acoustic:
+  n_mels: 16
+
+model:
+  skill: 0.5

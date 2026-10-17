@@ -1,0 +1,14 @@
+# low-latency streaming profile: small frames, light codec
+prosody:
+  frame_rate: 25
+
+codec:
+  n_quantizers: 2
+  codebook_size: 128
+  mel_bins: 16
+
+acoustic:
+  hop_length: 128
+
+vocoder:
+  hop_length: 128

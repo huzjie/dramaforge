@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.git/
+.push_cache.json
+*.wav

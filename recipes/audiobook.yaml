@@ -1,0 +1,9 @@
+# 有声书配方
+directive:
+  default_voice: narrator
+  default_emotion: neutral
+  crossfade_ms: 40.0
+codec:
+  n_quantizers: 8
+  codebook_size: 1024
+  mel_bins: 80

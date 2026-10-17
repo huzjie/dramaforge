@@ -1,0 +1,5 @@
+# 教学配音配方（清晰、强调重点）
+directive:
+  default_emotion: neutral
+  default_rate: 0.9
+  default_emphasis: 0.2

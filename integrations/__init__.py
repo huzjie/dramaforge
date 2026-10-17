@@ -1,0 +1,1 @@
+"""Optional integrations (LangChain, MCP)."""

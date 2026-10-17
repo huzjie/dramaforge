@@ -1,0 +1,7 @@
+# 广告配音配方（高能量、强调）
+directive:
+  default_emotion: excited
+  default_rate: 1.1
+  default_emphasis: 0.4
+codec:
+  n_quantizers: 4

@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: dramaforge
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: dramaforge
+  template:
+    metadata:
+      labels:
+        app: dramaforge
+    spec:
+      containers:
+        - name: dramaforge
+          image: dramaforge:latest
+          ports:
+            - containerPort: 8000

@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dramaforge"
+version = "0.1.0"
+description = "Directable multi-speaker speech synthesis engine: word-level tone/emotion/voice control, natural-language direction, RVQ audio codec (Fish Audio Drama 3 direction, zero-dependency reference)."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "Apache-2.0" }
+authors = [{ name = "dramaforge contributors" }]
+keywords = ["tts", "text-to-speech", "directable-tts", "voice-cloning", "multi-speaker", "rvq", "audio-codec", "prosody", "emotion", "zero-dependency"]
+
+[project.scripts]
+dramaforge = "dramaforge.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["dramaforge*"]

@@ -1,0 +1,46 @@
+# dramaforge default config (fast proxy; declared scale in codec/speaker)
+directive:
+  default_emotion: neutral
+  default_voice: narrator
+  default_rate: 1.0
+  default_pitch: 1.0
+  default_emphasis: 0.0
+  crossfade_ms: 30.0
+
+speaker:
+  n_speakers: 8
+  embed_dim: 32
+  seed: 7
+
+codec:
+  n_quantizers: 4
+  codebook_size: 256
+  mel_bins: 32
+
+prosody:
+  frame_rate: 50
+  pitch_bins: 12
+
+emotion:
+  embed_dim: 16
+  n_emotions: 8
+
+acoustic:
+  sample_rate: 24000
+  n_mels: 32
+  hop_length: 256
+
+vocoder:
+  sample_rate: 24000
+  hop_length: 256
+
+model:
+  name: mock
+  skill: 0.5
+  sample_rate: 24000
+
+serving:
+  host: "127.0.0.1"
+  port: 8000
+
+seed: 42

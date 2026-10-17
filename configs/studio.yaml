@@ -1,0 +1,16 @@
+# studio profile: many speakers, fine-grained codec (higher fidelity)
+speaker:
+  n_speakers: 32
+  embed_dim: 64
+
+codec:
+  n_quantizers: 8
+  codebook_size: 1024
+  mel_bins: 80
+
+emotion:
+  embed_dim: 32
+  n_emotions: 16
+
+directive:
+  crossfade_ms: 60.0

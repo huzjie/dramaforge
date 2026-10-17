@@ -1,0 +1,6 @@
+# voice cloning profile (high embed dim for fine-grained identity)
+speaker:
+  n_speakers: 16
+  embed_dim: 128
+directive:
+  crossfade_ms: 40.0

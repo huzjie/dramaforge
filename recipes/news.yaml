@@ -1,0 +1,7 @@
+# 新闻播报配方（中性、清晰、语速适中）
+directive:
+  default_emotion: neutral
+  default_voice: narrator
+  default_rate: 1.0
+prosody:
+  frame_rate: 50

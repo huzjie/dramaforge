@@ -1,0 +1,7 @@
+# 播客配方（双人对话，语速适中）
+directive:
+  default_voice: narrator
+  default_emotion: neutral
+  crossfade_ms: 30.0
+prosody:
+  frame_rate: 50
